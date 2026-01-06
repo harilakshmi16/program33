@@ -1,1 +1,9 @@
-# program33
+def decimalToBinary(num):
+if num>1:
+decimalToBinary(num//2)
+print(num%2,end='')
+number=int(input("enter any decimal number:"))
+decimalToBinary(number)
+Output:
+enter any decimal number:26
+11010
